@@ -63,13 +63,6 @@ allure serve
 allure generate --single-file allure-results --clean -o allure-report
    ```
 
-## Writing Tests
-
-1. Open the `src/test/java` directory.
-2. Navigate to the package containing the test classes.
-3. Create new Java classes or modify existing ones to define your Cucumber feature files and step definitions.
-4. Write your test scenarios using Gherkin syntax and implement the corresponding step definitions using Java and Appium.
-
 ## Test Reports
 
 This framework utilizes Allure as the reporting tool. After running the tests and generating the Allure report, you can view detailed test reports with rich visual representations, including graphs and statistics.
