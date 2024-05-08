@@ -37,7 +37,7 @@ To run the tests in this framework, ensure that you have the following software 
 
 To execute the tests, run the following command:
 
-The tests will run using the Cucumber framework with Appium integration, and generate test reports in the `target/allure-results` directory.
+The tests will run using the Cucumber framework with Appium integration, and generate test reports in the `allure-results` directory.
 
 ## Generating Allure Reports
 
