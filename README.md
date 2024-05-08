@@ -33,22 +33,9 @@ To run the tests in this framework, ensure that you have the following software 
    ```
    mvn clean install
    ```
-
-## Configuration
-
-Before running the tests, make sure to configure the following settings:
-
-1. Open the `src/test/resources/config.properties` file.
-2. Update the desired capabilities and other configuration settings for your specific mobile device or simulator/emulator.
-3. Add any additional configuration properties required for your specific setup.
-
 ## Running the Tests
 
 To execute the tests, run the following command:
-
-```
-mvn clean test
-```
 
 The tests will run using the Cucumber framework with Appium integration, and generate test reports in the `target/allure-results` directory.
 
