@@ -59,14 +59,8 @@ To generate and view Allure reports:
 1. Make sure you have Allure Command Line installed on your system.
 2. Run the following command to generate the Allure report:
 
-   ```
-   allure generate target/allure-results --clean -o target/allure-report
-   ```
-
-3. Open the generated report by running the following command:
-
-   ```
-   allure open target/allure-report
+allure serve
+allure generate --single-file allure-results --clean -o allure-report
    ```
 
 ## Writing Tests
@@ -81,10 +75,6 @@ To generate and view Allure reports:
 This framework utilizes Allure as the reporting tool. After running the tests and generating the Allure report, you can view detailed test reports with rich visual representations, including graphs and statistics.
 
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact
 
-If you have any questions or need further assistance, feel free to contact the project maintainers at [email address].
+If you have any questions or need further assistance, feel free to contact the project maintainers at [hebanasser996@gmail.com].
